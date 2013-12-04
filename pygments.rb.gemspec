@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.email = ['aman@tmm1.net']
 
   s.add_dependency 'yajl-ruby',   '~> 1.1.0'
-  s.add_dependency 'posix-spawn', '~> 0.3.6'
+  # s.add_dependency 'posix-spawn', '~> 0.3.6'
   s.add_development_dependency 'rake-compiler', '~> 0.7.6'
 
   # s.extensions = ['ext/extconf.rb']

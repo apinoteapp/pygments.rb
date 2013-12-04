@@ -1,5 +1,4 @@
 # coding: utf-8
-require 'posix/spawn'
 require 'yajl'
 require 'timeout'
 require 'logger'
@@ -13,7 +12,6 @@ end
 # Python process.
 module Pygments
   module Popen
-    include POSIX::Spawn
     extend self
 
     # Get things started by opening a pipe to mentos (the freshmaker), a
